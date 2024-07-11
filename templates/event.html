@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block pagecontent %}
+<main class="content">
+    <div class="text-column">
+        <h2>Willkommen in Port Tannweiler!</h2>
+        {{page.content|safe}}
+    </div>
+    <div class="image-column">
+        <h3>Impressionen vom letzten Mal: </h3>
+        {% for image in page.extra.images %}
+        <img src="{{image}}" alt="">
+        {% endfor %}
+    </div>
+</main>
+
+{% endblock %}

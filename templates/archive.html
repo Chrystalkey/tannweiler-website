@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block pagecontent %}
+<main class="content">
+    {% for page in paginator.pages %}
+            <a href="{{page.path}}"><h1>{{page.title}}</h1></a>
+    {% endfor %}
+</main>
+
+{% endblock %}

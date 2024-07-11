@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+
+{% block pagecontent %}
+<main class="content">
+    <div style="flex: 1 1 30%;" class="text-column">
+        <h1>{{page.title}}</h1>
+        {{page.content|safe}}
+        <h1>Tickets</h1>
+        <iframe style="width: 100%;min-height: 50vh" frameborder="0" allowtransparency="true"
+            src="https://www.deinetickets.de/shop/plp/de/start/?g=3832&quot;" name="deinetickets_shop"></iframe>
+    </div>
+
+</main>
+
+{% endblock %}

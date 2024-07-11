@@ -1,0 +1,183 @@
+:root {
+    --header-footer-height: 10vh; /* Relative height for header and footer */
+    --main-content-width: 66.67%; /* Width for main content */
+    --title-background: #333333;
+    --accent-color: #ffcc00;
+    --accent-color-blue: #739ec9;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    background-color: var(--title-background);
+    border-bottom: 0.5vh solid var(--accent-color); /* Yellow accent */
+    color: white;
+    width: 100%;
+    height: var(--header-footer-height);
+    display: flex;
+    align-items: center;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: var(--main-content-width);
+    margin: 0 auto;
+    padding: 0 1rem; /* Add padding for smaller screens */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0; /* Prevent shrinking */
+}
+
+.home-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.title {
+    margin: 0;
+    font-size: 5vmin; /* Responsive font size */
+    color: white;
+    margin-left: 1rem;
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.logo {
+    height: 8vh;
+}
+
+.nav-button {
+    height: 8vh;
+    background-color: var(--title-background);
+    color: white;
+    border: none;
+    border-bottom: 0.3vh solid transparent; /* Tab effect */
+    padding: 1vw 0.5rem; /* Adjust padding for responsiveness */
+    cursor: pointer;
+    transition: border-bottom 0.3s;
+    font-size: 1.2vw; /* Responsive font size */
+}
+
+.nav-button:hover,
+.nav-button:focus {
+    border-bottom: 0.4vh solid var(--accent-color-blue); /* Blue border on hover and focus */
+    outline: none;
+}
+
+@media (max-width: 768px) {
+    .header-container {
+        width: 100%; /* Full width on smaller screens */
+    }
+    
+    .title {
+        font-size: 1.2rem; /* Smaller font size */
+        margin-left: 0.5rem; /* Smaller margin */
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 1rem; /* Even smaller font size */
+    }
+
+    .nav-button {
+        font-size: 0.8rem; /* Even smaller font size */
+        padding: 0.5rem 0.25rem; /* Even smaller padding */
+    }
+}
+
+.content {
+    width: var(--main-content-width);
+    margin: 2rem auto;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    flex: 1;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.footer {
+    background-color: var(--title-background);
+    border-top: 0.6vh solid var(--accent-color);
+    /* Yellow accent */
+    color: white;
+    text-align: center;
+    height: var(--header-footer-height);
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container {
+    width: var(--main-content-width);
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+    /* Responsive font size */
+}
+
+.text-image {
+    width: 30%;
+    float: right;
+    /* Floats the image to the left, allowing text to wrap around it */
+    margin: 0 1rem 1rem 0;
+    /* Adds space around the image (top-right-bottom-left) */
+    max-width: 100%;
+    /* Ensures the image does not exceed the width of its container */
+    height: auto;
+    /* Maintains the aspect ratio of the image */
+    border-radius: 0.5rem;
+    /* Optional: rounds the corners of the image */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    /* Optional: adds a subtle shadow for better visual separation */
+}
+
+.text-column {
+    flex: 3 1 60%;
+    /* Grow factor, shrink factor, basis size */
+}
+
+.image-column {
+    flex: 1 1 30%;
+    /* Grow factor, shrink factor, basis size */
+}
+
+.text-column,
+.image-column {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.image-column img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 0.5rem;
+    /* Optional: rounds the corners of the image */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    /* Optional: adds a subtle shadow for better visual separation */
+}
