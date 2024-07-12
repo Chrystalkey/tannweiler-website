@@ -4,7 +4,7 @@ title="Port Tannweiler - Veranstaltung 3"
 date=2024-10-25
 [extra]
 description = "Jahr III der Erntefeste auf Burg Greifenhain"
-images = ["image_01.png", "image_02.png", "image_03.png", "image_04.png", "image_05.png"]
+images = ["image_01.png", "image_02.png", "image_03.png", "image_04.png", "image_05.png", "IMG_3002.JPG"]
 vorschau = "image_01.png"
 +++
 # Port Tannweiler – Veranstaltung 3
