@@ -9,4 +9,4 @@ Diese Website wird bereitgestellt und verwaltet durch:
 Es gelten die Datenschutzbestimmungen und Geschäftsbedingungen unter:
 [https://schatten-quest.de/datenschutzerklaerung/](https://schatten-quest.de/datenschutzerklaerung/)
 
-Mit liebe Gemacht von Benedikt Schäfer
+`Programmiert von Benedikt Schäfer im Keller unter zuhilfenahme von regionalem Bio-Kinderblut.`

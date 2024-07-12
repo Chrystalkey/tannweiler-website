@@ -30,6 +30,9 @@ OT: Dies ist wie immer ein Selbst Verpflegungs- und Zelt Con.
 Ein paar Kleinigkeiten wird die Taverne auch an Spezereien anbieten
 Geplant sind für 60 SC und 10 NSC.
 
+## Anmeldung & Tickets
+[Zu Anmeldung & Ticketverkauf geht es hier](/anmeldung)
+
 ## Über die Larp Veranstaltung
 
 Willkommen auf der Veranstaltungsseite Port-Tannweiler. Über diese Web-Präsenz erfolgt der Verkauf der Veranstaltungsteilnahmen an der Larp-Convention. Die Organisation der Veranstaltung erfolgt unterstützend durch das Team der Schatten-Quest Larp Orga. Die Veranstaltung selbst wird durch das Port-Tannweiler Team durchgeführt, es handelt sich nicht um eine Veranstaltung aus der Schatten-Quest Reihe.
