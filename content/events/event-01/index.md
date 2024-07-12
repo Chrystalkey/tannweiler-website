@@ -24,7 +24,7 @@ Die Gründe dafür belegt ein Dokument, das besagt das aus Dankbarkeit für die 
 Johannes Tannweiler lud daher Glücksritter und Handelstreibende ein zu dem Dorf zu reisen, und beim Aufbau Warenlagern und Zollstation zu helfen. 
 
 ## Datum & Modalitäten
-Die nächste Port-Tannweiler Veranstaltung findet vom 27. bis 29. Okt. 2023 statt.
+Die nächste Port-Tannweiler Veranstaltung findet vom 27. bis 29. Okt. 2022 statt.
 
 Für alle Wettstreite werden dem Gewinner und Finalisten großzügige Münz- Gewinne ausgezahlt werden.
 Gewinne Spender:
