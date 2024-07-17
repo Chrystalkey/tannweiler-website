@@ -70,7 +70,7 @@ body {
     padding: 1vw 0.5rem; /* Adjust padding for responsiveness */
     cursor: pointer;
     transition: border-bottom 0.3s;
-    font-size: 1.2vw; /* Responsive font size */
+    font-size: 1.5vw; /* Responsive font size */
 }
 
 .nav-button:hover,
@@ -94,10 +94,8 @@ body {
     .title {
         font-size: 1rem; /* Even smaller font size */
     }
-
     .nav-button {
-        font-size: 0.8rem; /* Even smaller font size */
-        padding: 0.5rem 0.25rem; /* Even smaller padding */
+        font-size: .5rem; /* Even smaller font size */
     }
 }
 
