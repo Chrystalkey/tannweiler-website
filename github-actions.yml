@@ -1,0 +1,26 @@
+name: Build and Store Zola Artifact
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install Zola
+        run: sudo apt-get update && sudo apt-get install -y zola
+
+      - name: Build Zola
+        run: zola build
+
+      - name: Store Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: zola-artifact
+          path: public
