@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://port-tannweiler.de/</loc>
+    </url>
+    <url>
+        <loc>https://port-tannweiler.de/anmeldung/</loc>
+    </url>
+    <url>
+        <loc>https://port-tannweiler.de/events/</loc>
+    </url>
+    <url>
+        <loc>https://port-tannweiler.de/events/event-01/</loc>
+        <lastmod>2022-10-27</lastmod>
+    </url>
+    <url>
+        <loc>https://port-tannweiler.de/events/event-02/</loc>
+        <lastmod>2023-10-27</lastmod>
+    </url>
+    <url>
+        <loc>https://port-tannweiler.de/events/event-03/</loc>
+        <lastmod>2024-10-25</lastmod>
+    </url>
+    <url>
+        <loc>https://port-tannweiler.de/events/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://port-tannweiler.de/impressum/</loc>
+    </url>
+</urlset>
